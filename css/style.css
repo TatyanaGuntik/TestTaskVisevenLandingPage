@@ -1,0 +1,157 @@
+html {
+    box-sizing: border-box;
+    font-family: Roboto;
+    font-style: normal;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 945px;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #828282;
+    padding: 40px 0 20px;
+}
+
+.navigation-link {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    color: #828282;
+}
+
+.main-info__text {
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 47.3392px;
+    line-height: 55px;
+    color: #070707;
+}
+
+.main-info {
+    padding-bottom: 100px;
+}
+
+.short-info {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: right;
+    color: #070707;
+    max-width: 259px;
+}
+
+.about-me,
+.portfolio {
+    background: #F4F4F4;
+    padding: 50px 0;
+    margin: -8px;
+}
+
+.about-me__title,
+.skills-title,
+.portfolio-title,
+.footer-title {
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #070707;
+}
+
+.about-me__title {
+    margin-bottom: 46px;
+}
+
+.skills-title,
+.portfolio-title {
+    margin-bottom: 50px;
+}
+
+.footer {
+    padding: 60px 0 60.9px;
+}
+
+.footer-title {
+    margin-bottom: 37px;
+}
+
+.about-me__main {
+    display: flex;
+    align-items: center;
+}
+
+.about-me__photo {
+    max-width: 450px;
+}
+
+.about-me__text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #070707;
+    margin-left: 44px;
+    max-width: 445px;
+}
+
+.skills {
+    padding: 50px 0;
+}
+
+.skills-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skills-item {
+    max-width: 170px;
+}
+
+.portfolio-link {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    margin: 40px 0 86px;
+}
+
+.portfolio-link a {
+    color: #070707;
+}
+
+.portfolio-link:last-child {
+    margin-bottom: 0;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 340px;
+    margin: 0 auto;
+}
